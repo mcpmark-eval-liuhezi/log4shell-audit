@@ -23,3 +23,16 @@ in versions 2.3.1, 2.12.2, and 2.12.3. Only the `log4j-core` package is directly
 affected; `log4j-api` should be kept at the same version as `log4j-core` if in use.
 
 Advisory URL: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+
+## CI evidence
+
+The audit workflow (`.github/workflows/audit.yml`) was dispatched on the default
+branch and completed successfully. The following line was captured directly from
+the job's log text:
+
+> AUDIT-PASSED
+
+- **Workflow run ID:** 39383517501
+- **Workflow run URL:** https://github.com/mcpmark-eval-liuhezi/log4shell-audit/actions/runs/39383517501
+- **Run conclusion:** success
+- **Job name:** verify (job ID 118497875807)
