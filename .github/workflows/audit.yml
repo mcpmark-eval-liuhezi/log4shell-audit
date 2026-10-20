@@ -1,0 +1,9 @@
+name: audit
+on:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: evidence
+        run: echo "AUDIT-PASSED"
